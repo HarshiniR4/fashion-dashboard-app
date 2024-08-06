@@ -1,0 +1,33 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f7e6e9; /* Light pink background */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: 'Raleway', sans-serif;
+}
+
+.plotly-graph-div .modebar {
+  background: transparent;
+  color: #000;
+}
+
+.plotly-graph-div .modebar-group {
+  border: none;
+}
+
+.plotly-graph-div .modebar-btn {
+  border: none;
+}
