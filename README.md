@@ -1,4 +1,6 @@
-# Fashion Investment Dashboard
+# Fashion Investment Dashboard Website
+
+![Fashion Investment Dashboard](https://github.com/HarshiniR4/fashion-dashboard-app/blob/main/Fashion_Project_Screenshot.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -11,10 +13,9 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Project Demo](#project-demo)
 
 ## Introduction
-The Fashion Investment Dashboard is a comprehensive web application that helps users make informed investment decisions in the fashion industry. It combines financial data, stock analysis, and upcoming events to provide users with a holistic view of the market trends and investment opportunities.
+The Fashion Investment Dashboard is a comprehensive web application that helps users make informed investment decisions in the fashion industry. It combines financial data, stock analysis, and upcoming events to provide users with a holistic view of market trends and investment opportunities. This project enabled me to combine interesting aspects of fashion and finance as a means to learn key concepts of web development. 
 
 ## Features
 - **Stock Analysis**: View historical and forecasted price analysis of selected stocks.
@@ -132,6 +133,32 @@ fashion-dashboard-app/
 ├── docker-compose.yml
 ```
 
+## Backend Files and Functionalities
+### app/analyze_event_stock_data.py
+- Analyzes the impact of past fashion events on stock prices.
+- Fetches stock data, sentiment data, and event impact data from the database.
+- Calculates historical performance metrics, sentiment forecast trend, and average event impact.
+- Generates investment recommendations based on these analyses.
+
+### app/fashion_calendar.py
+- Uses Selenium to scrape upcoming and past fashion event data from a website.
+- Parses and stores event data in the database, associating events with relevant stock prices.
+
+### app/stock_dashboard.py
+- Main Flask application providing API endpoints for various functionalities.
+- Endpoints include fetching stock tickers, stock data, stock forecasts, event impacts, upcoming events, and fashion brands.
+- Also includes an endpoint for generating recommended stocks based on performance analysis.
+
+### app/stock_scrape.py
+- Uses yfinance to fetch historical stock data for fashion-related stocks.
+- Stores fetched stock data and forecasted stock data in the database.
+- Analyzes the impact of past fashion events on stock prices and stores this data in the database.
+
+### postgres_setup/init.sql
+- SQL script for setting up and initializing the PostgreSQL database.
+- Defines the schema for tables including stock companies, stock data, stock forecasts, event impact, repeating events, event dates, event names, and fashion brands.
+- Inserts initial sample data into the database.
+
 ## Contributing
 Contributions are welcome! Please create a new branch for each feature or bug fix and submit a pull request for review.
 
@@ -140,14 +167,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For any inquiries, please contact:
-- **Name**: Your Name
-- **LinkedIn**: [Harshini Raju](https://www.linkedin.com/in/harshini-raju-8083181a0/)
+- **Name**: Harshini Raju
+- **LinkedIn **: [Harshini Raju](https://www.linkedin.com/in/harshini-raju-8083181a0/)
 - **GitHub**: [HarshiniR4](https://github.com/HarshiniR4)
 
 ## Project Demo
-For a visual overview of the Fashion Investment Dashboard, please watch the project demo video below:
+For a visual overview of the Fashion Investment Dashboard, please watch the [project demo video](https://github.com/HarshiniR4/fashion-dashboard-app/blob/main/Fashion%20Stocks%20Project%20Video.mp4).
+```
 
-<video width="100%" controls>
-  <source src="https://github.com/HarshiniR4/fashion-dashboard-app/blob/main/Fashion%20Stocks%20Project%20Video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+This README now includes detailed information about the backend files and their functionalities, providing a comprehensive overview of the project's backend structure.
