@@ -111,9 +111,7 @@ The Fashion Investment Dashboard is a comprehensive web application that helps u
 ```
 fashion-dashboard-app/
 ├── app/
-│   ├── cache/
 │   ├── analyze_event_stock_data.py
-│   ├── Dockerfile
 │   ├── entrypoint.sh
 │   ├── fashion_calendar.py
 │   ├── requirements.txt
@@ -121,7 +119,6 @@ fashion-dashboard-app/
 │   ├── stock_scrape.py
 ├── postgres_setup/
 │   ├── init.sql
-├── venv/
 ├── frontend/
 │   ├── public/
 │   ├── src/
@@ -136,9 +133,7 @@ fashion-dashboard-app/
 │   │   │       ├── burberry.jpg
 │   │   │       ├── chanel.jpg
 │   │   │       ├── ...
-├── .env
 ├── .gitignore
-├── docker-compose.yml
 ```
 
 ## Backend Files and Functionalities
