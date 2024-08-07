@@ -1,6 +1,6 @@
 # Fashion Stocks Dashboard
 
-![Fashion Stocks Dashboard](path-to-your-project-screenshot.png)
+![Fashion Stocks Dashboard](https://github.com/HarshiniR4/fashion-dashboard-app/blob/main/Fashion_Project_Screenshot.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -48,8 +48,8 @@ The Fashion Stocks Dashboard is a comprehensive web application that helps users
 ### Installation
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/fashion-stocks-dashboard.git
-    cd fashion-stocks-dashboard
+    git clone https://github.com/HarshiniR4/fashion-dashboard-app.git
+    cd fashion-dashboard-app
     ```
 
 2. **Set up environment variables**:
@@ -101,7 +101,7 @@ The Fashion Stocks Dashboard is a comprehensive web application that helps users
 
 ## Folder Structure
 ```
-fashion-stocks-dashboard/
+fashion-dashboard-app/
 ├── app/
 │   ├── cache/
 │   ├── analyze_event_stock_data.py
@@ -138,3 +138,12 @@ Contributions are welcome! Please create a new branch for each feature or bug fi
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any inquiries, please contact:
+- **Name**: Your Name
+- **LinkedIn **: [Harshini Raju](https://www.linkedin.com/in/harshini-raju-8083181a0/)
+- **GitHub**: [HarshiniR4](https://github.com/HarshiniR4)
+
+## Project Demo
+For a visual overview of the Fashion Stocks Dashboard, please watch the [project demo video](https://github.com/HarshiniR4/fashion-dashboard-app/blob/main/Fashion%20Stocks%20Project%20Video.mp4).
