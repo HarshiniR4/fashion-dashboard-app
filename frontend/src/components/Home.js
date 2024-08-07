@@ -89,8 +89,6 @@ const EventCard = styled(Card)(({ theme }) => ({
   backgroundColor: 'transparent',
   color: '#fff',
   position: 'relative',
-  maxWidth: 150, // Reduced the size of the event cards
-  margin: '0 auto',
   '&:hover img': {
     transform: 'scale(1.05)',
     transition: 'transform 0.5s ease',
@@ -98,7 +96,7 @@ const EventCard = styled(Card)(({ theme }) => ({
 }));
 
 const EventCardMedia = styled(CardMedia)({
-  height: 200, // Reduced the height of the event cards
+  height: 300,
   objectFit: 'cover',
 });
 
