@@ -60,12 +60,20 @@ The Fashion Investment Dashboard is a comprehensive web application that helps u
      DATABASE_URL=postgresql://username:password@db:5432/your_database
      ```
 
-3. **Start the application using Docker Compose**:
+3. **Start the Backend of the application**:
     ```bash
-    docker-compose up --build
+    cd backend
+    pip install requirements.txt
+    ./run_all.sh
     ```
-
-4. **Access the application**:
+    **Note**: You can create a virtual environment for the backend to install necessary libraries form the requirements.txt and then proceed with running the script.
+4. **Start the Frontend of the application**:
+    ```bash
+    cd frontend
+    npm run build
+    npm start
+    ```
+5. **Access the application**:
    - The application will be running at `http://localhost:3000`
    - The Flask API will be running at `http://localhost:5000`
 
@@ -158,6 +166,24 @@ fashion-dashboard-app/
 - SQL script for setting up and initializing the PostgreSQL database.
 - Defines the schema for tables including stock companies, stock data, stock forecasts, event impact, repeating events, event dates, event names, and fashion brands.
 - Inserts initial sample data into the database.
+
+### Stock Forecast Methods
+The stock forecast methods utilize the ARIMA model to predict future stock prices based on historical data. The key steps include:
+- **Fetching Historical Data**: Using the yfinance library to retrieve historical stock prices.
+- **Generating Forecasts**: Applying the ARIMA model to generate forecasts for future stock prices.
+- **Storing Forecasts**: Saving the forecasted data in the PostgreSQL database for later use.
+
+### Event Impact Calculation
+The event impact calculation involves analyzing how specific fashion events affect stock prices. The key steps include:
+- **Fetching Event Data**: Retrieving event dates and descriptions from the CFDA website.
+- **Analyzing Stock Prices**: Comparing stock prices before and after each event to measure the impact.
+- **Calculating Impact Metrics**: Computing metrics such as average impact, positive/negative impacts, and generating visual graphs.
+
+### Recommended Stock Prediction
+The recommended stock prediction identifies stocks with strong performance metrics for investment. The key steps include:
+- **Analyzing Performance Metrics**: Evaluating stocks based on average return, volatility, cumulative return, sentiment trend, and event impact.
+- **Filtering Stocks**: Selecting stocks that meet the criteria for investment, such as positive average return and lower volatility.
+- **Generating Recommendations**: Providing a list of recommended stocks with detailed performance metrics.
 
 ## Contributing
 Contributions are welcome! Please create a new branch for each feature or bug fix and submit a pull request for review.
