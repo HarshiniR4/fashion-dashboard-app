@@ -1,6 +1,4 @@
-# Fashion Stocks Dashboard
-
-![Fashion Stocks Dashboard](https://github.com/HarshiniR4/fashion-dashboard-app/blob/main/Fashion_Project_Screenshot.png)
+# Fashion Investment Dashboard
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -13,9 +11,10 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Project Demo](#project-demo)
 
 ## Introduction
-The Fashion Stocks Dashboard is a comprehensive web application that helps users make informed investment decisions in the fashion industry. It combines financial data, stock analysis, and upcoming events to provide users with a holistic view of the market trends and investment opportunities.
+The Fashion Investment Dashboard is a comprehensive web application that helps users make informed investment decisions in the fashion industry. It combines financial data, stock analysis, and upcoming events to provide users with a holistic view of the market trends and investment opportunities.
 
 ## Features
 - **Stock Analysis**: View historical and forecasted price analysis of selected stocks.
@@ -142,8 +141,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 For any inquiries, please contact:
 - **Name**: Your Name
-- **LinkedIn **: [Harshini Raju](https://www.linkedin.com/in/harshini-raju-8083181a0/)
+- **LinkedIn**: [Harshini Raju](https://www.linkedin.com/in/harshini-raju-8083181a0/)
 - **GitHub**: [HarshiniR4](https://github.com/HarshiniR4)
 
 ## Project Demo
-For a visual overview of the Fashion Stocks Dashboard, please watch the [project demo video](https://github.com/HarshiniR4/fashion-dashboard-app/blob/main/Fashion%20Stocks%20Project%20Video.mp4).
+For a visual overview of the Fashion Investment Dashboard, please watch the project demo video below:
+
+<video width="100%" controls>
+  <source src="https://github.com/HarshiniR4/fashion-dashboard-app/blob/main/Fashion%20Stocks%20Project%20Video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
