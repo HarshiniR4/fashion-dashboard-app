@@ -102,7 +102,7 @@ def store_events(events):
 
         # Insert the event date with the event_id into event_dates table
         event_date = parse_date(date)
-        cursor.execute("INSERT INTO event_dates (event_id, event_date) VALUES (%s, %s) RETURNING id", (event_id, event_date))
+        cursor.execute("INSERT INTO event_dates (event_id, event_date) VALUES (%s, %s) ON CONFLICT DO NOTHING RETURNING id", (event_id, event_date))
         event_date_id = cursor.fetchone()[0]
 
         # Fetch stock prices for the event date and insert into repeating_events
@@ -139,6 +139,7 @@ for url in past_urls:
 print("Past events")
 for event in past_events:
     print(event)
+
 # Combine events
 all_events = upcoming_events + past_events
 
