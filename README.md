@@ -173,6 +173,3 @@ For any inquiries, please contact:
 
 ## Project Demo
 For a visual overview of the Fashion Investment Dashboard, please watch the [project demo video](https://github.com/HarshiniR4/fashion-dashboard-app/blob/main/Fashion%20Stocks%20Project%20Video.mp4).
-```
-
-This README now includes detailed information about the backend files and their functionalities, providing a comprehensive overview of the project's backend structure.
