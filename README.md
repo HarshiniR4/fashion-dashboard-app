@@ -36,14 +36,7 @@ The Fashion Investment Dashboard is a comprehensive web application that helps u
   - Pandas
   - PostgreSQL
 
-- **Others**:
-  - Docker
-  - Docker Compose
-
 ## Setup
-### Prerequisites
-- Docker
-- Docker Compose
 
 ### Installation
 1. **Clone the repository**:
