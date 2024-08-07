@@ -194,7 +194,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 For any inquiries, please contact:
 - **Name**: Harshini Raju
-- **LinkedIn **: [Harshini Raju](https://www.linkedin.com/in/harshini-raju-8083181a0/)
+- **LinkedIn**: [Harshini Raju](https://www.linkedin.com/in/harshini-raju-8083181a0/)
 - **GitHub**: [HarshiniR4](https://github.com/HarshiniR4)
 
 ## Project Demo
